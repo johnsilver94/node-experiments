@@ -1,0 +1,15 @@
+{
+ "name": "node-blog",
+ "version": "0.1.0",
+ "main": "app.js",
+ "repository": "https://github.com/silverfang94/node-experiments.git",
+ "author": "Ion Cretu <cretuion94@gmail.com>",
+ "license": "MIT",
+ "scripts": {
+  "start": "nodemon app.js"
+ },
+ "dependencies": {
+  "express": "^4.17.1",
+  "lodash": "^4.17.15"
+ }
+}

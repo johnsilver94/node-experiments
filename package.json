@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/silverfang94/node-experiments.git",
   "author": "Ion Cretu <cretuion94@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@svgdotjs/svg.draggable.js": "^3.0.2",
+    "@svgdotjs/svg.js": "^3.0.16"
+  }
 }

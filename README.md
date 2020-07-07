@@ -13,7 +13,7 @@
 ## 🚗 Run
 
 ```sh
-just open index.html from directories
+just open index.html
 ```
 
 ***

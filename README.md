@@ -10,16 +10,10 @@
 
 ### 🏠 [Homepage](https://github.com/silverfang94/node-experiments/tree/blog)
 
-## 🛠️ Install
-
-```sh
-yarn install
-```
-
 ## 🚗 Run
 
 ```sh
-yarn start
+just open index.html from directories
 ```
 
 ***

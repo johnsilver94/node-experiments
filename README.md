@@ -22,10 +22,14 @@ yarn install
 yarn start
 ```
 
-***
+```sh
+yarn dev
+```
+
+---
 
 ## Author
 
 👨 **Ion Cretu <cretuion94@gmail.com>**
 
-* Github: [@silverfang94](https://github.com/silverfang94)
+- Github: [@silverfang94](https://github.com/silverfang94)

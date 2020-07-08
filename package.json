@@ -1,8 +1,43 @@
 {
   "name": "stories-app",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "app.js",
+  "description": "App that store users stoires",
   "repository": "https://github.com/silverfang94/node-experiments.git",
   "author": "Ion Cretu <cretuion94@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "prod": "cross-env NODE_ENV=production node app.js",
+    "dev": "cross-env NODE_ENV=development node --trace-warnings app.js",
+    "start": "nodemon app.js",
+    "stylelint-check": "stylelint-config-prettier-check"
+  },
+  "dependencies": {
+    "connect-mongo": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "2.21.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.0.0",
+    "express-session": "^1.17.1",
+    "method-override": "^3.0.0",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.22",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-google-oauth2": "^0.2.0",
+    "stylelint-config-sass-guidelines": "^7.0.0",
+    "stylelint-scss": "^3.18.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "2.0.5",
+    "stylelint": "^13.6.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0"
+  }
 }

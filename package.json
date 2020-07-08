@@ -1,0 +1,8 @@
+{
+  "name": "stories-app",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/silverfang94/node-experiments.git",
+  "author": "Ion Cretu <cretuion94@gmail.com>",
+  "license": "MIT"
+}

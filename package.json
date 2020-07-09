@@ -50,8 +50,6 @@
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.1.0",
     "tailwindcss": "^1.4.6",
-    "typescript": "^3.9.6",
-    "typescript-deno-plugin": "^1.31.0",
     "vue-template-compiler": "^2.6.11"
   }
 }

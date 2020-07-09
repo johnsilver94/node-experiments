@@ -8,7 +8,7 @@
 
 > This is a stories app which uses Nodemon, Express, MongoDB and Passport.js with Google OAuth
 
-### 🏠 [Homepage](https://github.com/silverfang94/node-experiments/tree/express-mong)
+### 🏠 [Homepage](https://github.com/silverfang94/node-experiments/tree/express-mongo)
 
 ## 🛠️ Install
 

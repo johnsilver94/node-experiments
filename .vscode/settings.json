@@ -6,8 +6,7 @@
     "source.fixAll.stylelint": true
   },
   "prettier.packageManager": "yarn",
-  "vetur.format.defaultFormatter.html": "prettyhtml",
-  "[javascript, json, graphql]": {
+  "[javascript, typescript, json, graphql]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }

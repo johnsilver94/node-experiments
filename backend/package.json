@@ -1,0 +1,25 @@
+{
+  "name": "express-api",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "private": "true",
+  "scripts": {
+    "prebuild": "del /s /q dist\\* && tslint -c tslint.json -p    tsconfig.json --fix",
+    "build": "tsc && copy /y package.json dist\\",
+    "prestart": "npm run build",
+    "start": "ts-node ."
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/express": "^4.17.7",
+    "ts-node": "^8.10.2",
+    "tsc": "^1.20150623.0",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.6"
+  }
+}

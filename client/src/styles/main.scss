@@ -1,0 +1,35 @@
+body {
+	background-color: #f0f2f8;
+	color: #444;
+	font-family: "Muli", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+}
+
+img {
+	filter: sepia(1) hue-rotate(180deg) opacity(0.9) grayscale(0.7);
+}
+
+.button {
+	@apply block;
+	@apply border-2 border-transparent;
+	@apply text-center;
+	@apply px-3 py-2;
+	@apply rounded-full;
+
+	&:hover,
+	&:focus {
+		outline: none;
+	}
+}
+
+.button-primary {
+	@apply text-orange;
+	@apply border-orange;
+
+	&:hover,
+	&:focus {
+		@apply bg-orange text-white;
+	}
+}

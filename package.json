@@ -1,0 +1,24 @@
+{
+  "name": "node-experiments",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/silverfang94/node-experiments.git",
+  "author": "Ion Cretu <cretuion94@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server"
+  },
+  "dependencies": {
+    "vue": "3.0.0-alpha.8"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "3.0.0-alpha.8",
+    "ts-loader": "^8.0.0",
+    "typescript": "^3.9.6",
+    "vue-loader": "16.0.0-alpha.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "yarn": "^1.22.4"
+  }
+}

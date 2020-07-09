@@ -10538,23 +10538,23 @@
       undefined
     );
 
-  let __async = (__this, __arguments, generator) => {
+  var __async = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
-      let fulfilled = (value) => {
+      var fulfilled = (value) => {
         try {
           step(generator.next(value));
         } catch (e) {
           reject(e);
         }
       };
-      let rejected = (value) => {
+      var rejected = (value) => {
         try {
           step(generator.throw(value));
         } catch (e) {
           reject(e);
         }
       };
-      let step = (result) => {
+      var step = (result) => {
         return result.done ? resolve(result.value) : Promise.resolve(result.value).then(fulfilled, rejected);
       };
       step((generator = generator.apply(__this, __arguments)).next());
@@ -10571,7 +10571,7 @@
     mounted() {
       return __async(this, [], function* () {
         try {
-          const res = yield fetch("http://localhost:3000/products");
+          const res = yield fetch("http://localhost:5000/products");
           const json = yield res.json();
           this.products = json;
         } catch (e) {
@@ -10666,7 +10666,7 @@
           { staticClass: "lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0" },
           [
             _c("h1", { staticClass: "text-gray-900 text-3xl font-medium mb-1" }, [
-              _vm._v("\n        " + _vm._s(_vm.product.title) + "\n      ")
+              _vm._v(_vm._s(_vm.product.title))
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "flex mb-4" }, [
@@ -10702,9 +10702,11 @@
                   _vm._v(" "),
                   _c("span", { staticClass: "text-gray-700 ml-3" }, [
                     _vm._v(
-                      _vm._s(_vm.product.rating) +
+                      "\n            " +
+                        _vm._s(_vm.product.rating) +
                         "\n            " +
-                        _vm._s(_vm.product.rating > 1 ? "Reviews" : "Review")
+                        _vm._s(_vm.product.rating > 1 ? "Reviews" : "Review") +
+                        "\n          "
                     )
                   ])
                 ],
@@ -10791,7 +10793,7 @@
             ]),
             _vm._v(" "),
             _c("p", { staticClass: "leading-relaxed" }, [
-              _vm._v("\n        " + _vm._s(_vm.product.description) + "\n      ")
+              _vm._v(_vm._s(_vm.product.description))
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "flex mt-6" }, [
@@ -10802,7 +10804,7 @@
               _c(
                 "button",
                 { staticClass: "flex ml-auto button button-primary px-6" },
-                [_vm._v("\n          Add to cart\n        ")]
+                [_vm._v("Add to cart")]
               ),
               _vm._v(" "),
               _c(
@@ -10873,23 +10875,23 @@
       undefined
     );
 
-  let __async$1 = (__this, __arguments, generator) => {
+  var __async$1 = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
-      let fulfilled = (value) => {
+      var fulfilled = (value) => {
         try {
           step(generator.next(value));
         } catch (e) {
           reject(e);
         }
       };
-      let rejected = (value) => {
+      var rejected = (value) => {
         try {
           step(generator.throw(value));
         } catch (e) {
           reject(e);
         }
       };
-      let step = (result) => {
+      var step = (result) => {
         return result.done ? resolve(result.value) : Promise.resolve(result.value).then(fulfilled, rejected);
       };
       step((generator = generator.apply(__this, __arguments)).next());
@@ -10906,7 +10908,7 @@
     mounted() {
       return __async$1(this, [], function* () {
         try {
-          const res = yield fetch(`http://localhost:3000/product/${this.$route.params.id}`);
+          const res = yield fetch(`http://localhost:5000/product/${this.$route.params.id}`);
           const json = yield res.json();
           this.product = json;
         } catch (e) {
@@ -11173,7 +11175,7 @@
                   "flex items-center text-3xl text-white leading-none uppercase relative",
                 attrs: { to: "/" }
               },
-              [_c("span", [_vm._v("S")])]
+              [_c("span", [_vm._v("Shop")])]
             )
           ],
           1

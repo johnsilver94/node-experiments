@@ -1,4 +1,4 @@
-import { init, MongoClient } from 'https://deno.land/x/mongo@v0.6.0/mod.ts';
+import { init, MongoClient } from "https://deno.land/x/mongo@v0.6.0/mod.ts";
 
 // Initialize the plugin
 await init();
@@ -23,8 +23,8 @@ class DB {
   }
 }
 
-const dbName = Deno.env.get('DB_NAME') || 'Shopyyy';
-const dbHostUrl = Deno.env.get('DB_HOST_URL') || 'mongodb://localhost:27017';
+const dbName = Deno.env.get("DB_NAME") || "bikesDb";
+const dbHostUrl = Deno.env.get("DB_HOST_URL") || "mongodb://localhost:27017";
 const db = new DB(dbName, dbHostUrl);
 db.connect();
 

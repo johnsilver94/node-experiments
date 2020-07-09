@@ -7,7 +7,7 @@
   },
   "prettier.packageManager": "yarn",
   "vetur.format.defaultFormatter.html": "prettyhtml",
-  "[javascript, json, typescript, graphql]": {
+  "[javascript, json, graphql]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }

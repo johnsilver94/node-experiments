@@ -6,7 +6,7 @@
           to="/"
           class="flex items-center text-3xl text-white leading-none uppercase relative"
         >
-          <span>S</span>
+          <span>Shop</span>
         </router-link>
       </div>
     </header>

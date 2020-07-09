@@ -1,10 +1,6 @@
 <template>
   <div class="flex flex-wrap -m-3">
-    <div
-      v-for="product in products"
-      :key="product.id"
-      class="w-full p-3 md:w-1/2 lg:w-1/4"
-    >
+    <div v-for="product in products" :key="product.id" class="w-full p-3 md:w-1/2 lg:w-1/4">
       <product :product="product" />
     </div>
   </div>
@@ -23,7 +19,7 @@ export default {
   },
   async mounted() {
     try {
-      const res = await fetch('http://localhost:3000/products');
+      const res = await fetch('http://localhost:5000/products');
       const json = await res.json();
       this.products = json;
     } catch (e) {

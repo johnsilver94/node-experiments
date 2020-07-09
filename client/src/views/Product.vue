@@ -18,7 +18,7 @@ export default {
   async mounted() {
     try {
       const res = await fetch(
-        `http://localhost:3000/product/${this.$route.params.id}`
+        `http://localhost:5000/product/${this.$route.params.id}`
       );
       const json = await res.json();
       this.product = json;

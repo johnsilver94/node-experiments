@@ -1,0 +1,9 @@
+# Ignore artifacts:
+build
+coverage
+.editorconfig
+.eslintignore
+.gitignore
+.prettierignore
+LICENSE
+yarn.lock

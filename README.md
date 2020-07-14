@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> A simple task manager build with Typescript, Kretes and Tailwind
+> A simple task manager build with Node.js, Typescript, Vue 3, PostgreSQL, Kretes and Tailwind
 
 ### 🏠 [Homepage](https://github.com/silverfang94/node-experiments)
 

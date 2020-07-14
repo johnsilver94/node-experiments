@@ -13,24 +13,14 @@
 ## 🛠️ Install
 
 ```sh
-yarn add shadows
+yarn install
 ```
 
-## 🚗 Run
+## 🚗 Test
 
 ```sh
-import { shadows } from "shadows-maker";
-
-shadows({
-    shadow_type: 'soft',
-    padding: false
-})
+yarn test
 ```
-
-## 🔎 Options
-
-* *shadow_type* - hard | soft (soft by default)
-* *padding* - true | false (false by default)
 
 ---
 
@@ -38,4 +28,4 @@ shadows({
 
 👨 **Ion Cretu <cretuion94@gmail.com>**
 
-* Github: [@silverfang94](https://github.com/silverfang94)
+- Github: [@silverfang94](https://github.com/silverfang94)

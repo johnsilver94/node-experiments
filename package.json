@@ -1,11 +1,19 @@
 {
-  "name": "shadows-maker",
+  "name": "@cretuion94/john-package",
   "version": "0.1.0",
   "description": "This is a test npm package",
-  "main": "index.js",
+  "main": "build/index.js",
+  "module": "build/index.es.js",
+  "jsnext:main": "build/index.es.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c",
+    "format": "prettier-standard --format",
+    "lint": "standard",
+    "test": "jest --coverage"
   },
+  "files": [
+    "build"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/silverfang94/node-experiments.git"
@@ -15,5 +23,29 @@
   "bugs": {
     "url": "https://github.com/silverfang94/node-experiments/issues"
   },
-  "homepage": "https://github.com/silverfang94/node-experiments/npm-package#readme"
+  "homepage": "https://github.com/silverfang94/node-experiments/npm-package#readme",
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "standard": {
+    "ignore": [
+      "node_modules/",
+      "build/"
+    ]
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "jest": "^26.1.0",
+    "prettier-standard": "^16.4.1",
+    "rollup": "^2.21.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.3",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "standard": "^14.3.4",
+    "ts-jest": "^26.1.2",
+    "typescript": "^3.9.6"
+  }
 }

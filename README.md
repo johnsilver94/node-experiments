@@ -13,13 +13,15 @@
 ## 🛠️ Install
 
 ```sh
-yarn install
+yarn add @cretuion94/john-package
 ```
 
 ## 🚗 Test
 
 ```sh
-yarn test
+const { sum }= require("@cretuion94/john-package")
+
+console.log(sum(3,6))
 ```
 
 ---

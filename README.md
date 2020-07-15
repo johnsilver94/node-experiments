@@ -6,9 +6,9 @@
   </a>
 </p>
 
-> Telegram bot for automatic publications build with
+> Telegram bot for automatic publications build with Node, express-generator
 
-### 🏠 [Homepage](https://github.com/silverfang94/node-experiments)
+### 🏠 [Homepage](https://github.com/silverfang94/node-experiments/telegram-bot)
 
 ## 🛠️ Install
 
@@ -19,7 +19,7 @@ yarn install
 ## 🚗 Run
 
 ```sh
-yarn dev
+yarn start
 ```
 
 ---

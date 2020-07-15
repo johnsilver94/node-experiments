@@ -19,7 +19,7 @@ yarn install
 ## 🚗 Run
 
 ```sh
-yarn dev
+yarn serve
 ```
 
 ---

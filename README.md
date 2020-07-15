@@ -19,7 +19,31 @@ yarn install
 ## 🚗 Run
 
 ```sh
-yarn dev
+yarn serve
+```
+
+## Compiles and minifies for production
+
+```sh
+yarn build
+```
+
+## Run your unit tests
+
+```sh
+yarn test:unit
+```
+
+## Run your end-to-end tests /not implemented
+
+```sh
+yarn test:e2e
+```
+
+## Lints and fixes files
+
+```sh
+yarn lint
 ```
 
 ---

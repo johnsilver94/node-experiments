@@ -1,4 +1,4 @@
-<h1 align="center">Task Manager 📝</h1>
+<h1 align="center">Telegram bot 🤖</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> A simple task manager build with Node.js, Typescript, Vue 3, PostgreSQL, Kretes and Tailwind
+> Telegram bot for automatic publications build with
 
 ### 🏠 [Homepage](https://github.com/silverfang94/node-experiments)
 

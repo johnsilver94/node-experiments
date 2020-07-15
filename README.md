@@ -1,4 +1,4 @@
-<h1 align="center">Task Manager 📝</h1>
+<h1 align="center">Vue testing with Jest 🧪</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
@@ -6,9 +6,9 @@
   </a>
 </p>
 
-> A simple task manager build with Node.js, Typescript, Vue 3, PostgreSQL, Kretes and Tailwind
+> Vue testing with Jest example app
 
-### 🏠 [Homepage](https://github.com/silverfang94/node-experiments)
+### 🏠 [Homepage](https://github.com/silverfang94/node-experiments/vue-testing)
 
 ## 🛠️ Install
 

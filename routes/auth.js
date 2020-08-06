@@ -7,7 +7,11 @@ const authRouter = express.Router();
 // @route   GET /auth/google
 authRouter.get(
   "/google",
-  passport.authenticate("google", { scope: ["profile"] })
+  passport.authenticate("google", { scope: ["profile"] }),
+  (req, res) => {
+    console.log(req);
+    res.redirect("/dashboard");
+  }
 );
 
 // @desc    Google auth callback
@@ -16,6 +20,7 @@ authRouter.get(
   "/google/callback",
   passport.authenticate("google", { failureRedirect: "/" }),
   (req, res) => {
+    console.log(req);
     res.redirect("/dashboard");
   }
 );
